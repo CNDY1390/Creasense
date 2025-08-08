@@ -1,0 +1,39 @@
+{
+  "protocolLength": 14,
+  "comment": {
+    "version": "2.0",
+    "author": "Creasense Team",
+    "date": "2024-01-15",
+    "notes": "Added creatinine measurement support"
+  },
+  "flags": {
+    "bit0": {
+      "name": "sensorStatus",
+      "type": "uint8",
+      "description": "传感器状态"
+    },
+    "bit1": {
+      "name": "batteryVoltage",
+      "type": "uint16_le",
+      "description": "电池电压（整数，精度0.001V）"
+    },
+    "bit2": {
+      "name": "timestamp",
+      "type": "uint32_le",
+      "description": "Unix时间戳（小端序）"
+    },
+    "bit3": {
+      "name": "current",
+      "type": "uint32_le",
+      "description": "电流（整数，精度0.0001nA）"
+    },
+    "bit4": {
+      "name": "creatinine",
+      "type": "uint16_le",
+      "description": "肌酐值（整数，单位mg/dL）"
+    },
+    "bit5": {},
+    "bit6": {},
+    "bit7": {}
+  }
+} 

@@ -1,0 +1,480 @@
+{
+  "common": {
+    "viewInfo": "檢視資訊",
+    "loading": "載入中...",
+    "error": "錯誤",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "確認",
+    "save": "儲存",
+    "delete": "刪除",
+    "edit": "編輯",
+    "close": "關閉",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "refresh": "重新整理",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "view": "檢視",
+    "add": "新增",
+    "remove": "移除",
+    "clear": "清除",
+    "reset": "重設",
+    "import": "匯入",
+    "export": "匯出",
+    "download": "下載",
+    "upload": "上傳",
+    "copy": "複製",
+    "paste": "貼上",
+    "cut": "剪下",
+    "select": "選擇",
+    "deselect": "取消選擇",
+    "selectAll": "全選",
+    "deselectAll": "取消全選",
+    "yes": "是",
+    "no": "否",
+    "ok": "確定",
+    "retry": "重試",
+    "ignore": "忽略",
+    "continue": "繼續",
+    "stop": "停止",
+    "start": "開始",
+    "pause": "暫停",
+    "resume": "恢復",
+    "restart": "重新啟動",
+    "enable": "啟用",
+    "disable": "停用",
+    "on": "開啟",
+    "off": "關閉",
+    "active": "活躍",
+    "inactive": "非活躍",
+    "connected": "已連線",
+    "disconnected": "已斷線",
+    "online": "線上",
+    "offline": "離線",
+    "available": "可用",
+    "unavailable": "不可用",
+    "ready": "就緒",
+    "busy": "忙碌",
+    "idle": "閒置",
+    "processing": "處理中",
+    "completed": "已完成",
+    "failed": "失敗",
+    "pending": "待處理",
+    "cancelled": "已取消",
+    "timeout": "逾時",
+    "unknown": "未知",
+    "none": "無",
+    "all": "全部",
+    "other": "其他",
+    "custom": "自訂",
+    "default": "預設",
+    "auto": "自動",
+    "manual": "手動",
+    "automatic": "自動",
+    "age": "歲"
+  },
+  "navigation": {
+    "dashboard": "儀表板",
+    "devices": "裝置",
+    "profile": "檔案",
+    "setup": "設定",
+    "tabs": {
+      "dashboard": "儀表板",
+      "devices": "裝置",
+      "profile": "檔案"
+    }
+  },
+  "dashboard": {
+    "title": "Creasense",
+    "greeting": {
+      "hello": "您好",
+      "goodMorning": "早安",
+      "goodAfternoon": "午安",
+      "goodEvening": "晚安",
+      "goodNight": "晚安"
+    },
+    "trends": {
+      "title": "變化趨勢",
+      "viewAll": "檢視全部",
+      "creatinineTrend": "肌酐趨勢",
+      "periods": {
+        "daily": "每日",
+        "weekly": "每週",
+        "monthly": "每月"
+      },
+      "charts": {
+        "title": "圖表",
+        "lineChart": "折線圖",
+        "barChart": "長條圖",
+        "pieChart": "圓餅圖",
+        "scatterPlot": "散點圖"
+      },
+      "statistics": {
+        "title": "統計",
+        "summary": "摘要",
+        "distribution": "分布",
+        "correlation": "相關性",
+        "prediction": "預測"
+      }
+    },
+    "healthStatus": {
+      "currentLevel": "您目前的肌酐水平",
+      "normal": "正常",
+      "warning": "警告",
+      "danger": "危險",
+      "currentValue": "目前肌酐值",
+      "diseaseProbability": "患病機率",
+      "personalizedAdvice": "個人化建議",
+      "noData": "暫無資料，請連線裝置取得最新讀數",
+      "keepHealthy": "您目前的肌酐水平正常，請繼續保持健康的生活方式。"
+    },
+    "actions": {
+      "refreshData": "重新整理資料",
+      "refreshing": "重新整理中..."
+    },
+    "noData": {
+      "title": "暫無資料",
+      "description": "請連線您的肌酐檢測裝置以取得最新的健康資料",
+      "connectDevice": "連線裝置"
+    }
+  },
+  "devices": {
+    "title": "裝置管理",
+    "creatinine_device": "肌酐檢測裝置",
+    "device_model": "MakeSense 檢測儀",
+    "model": "型號: CR-2024",
+    "status": {
+      "idle": "閒置",
+      "scanning": "掃描中",
+      "connecting": "連線中",
+      "connected": "已連線",
+      "reading": "讀取中",
+      "disconnecting": "斷線中",
+      "error": "錯誤",
+      "disconnected": "未連線"
+    },
+    "actions": {
+      "scan": "掃描裝置",
+      "scanning": "掃描中...",
+      "connect": "連線",
+      "connecting": "連線中...",
+      "disconnect": "斷線",
+      "disconnecting": "斷線中...",
+      "cancel": "取消操作",
+      "retry": "重試"
+    },
+    "settings": {
+      "title": "裝置設定",
+      "debugMode": "除錯模式",
+      "enableDebug": "啟用除錯",
+      "disableDebug": "停用除錯",
+      "auto_connect": "自動連線",
+      "connection_notify": "連線提醒",
+      "show_creatinine_unit": "顯示肌酐單位",
+      "show_creatinine_unit_desc": "在所有肌酐值後顯示 μmol/L 單位",
+      "frequency_title": "測量頻率設定",
+      "frequency_current": "目前設定：",
+      "frequency_notice": "設定已儲存，將從下次測量後生效",
+      "frequency_values": {
+        "5_minutes": "5分鐘",
+        "15_minutes": "15分鐘",
+        "1_hour": "1小時",
+        "3_hours": "3小時",
+        "6_hours": "6小時"
+      },
+      "frequency_picker_title": "選擇測量頻率",
+      "help_title": "使用說明",
+      "connection_help": "如何連線裝置",
+      "connection_help_desc": "檢視裝置連線步驟和故障排除",
+      "calibration_help": "裝置校準",
+      "calibration_help_desc": "學習如何校準檢測裝置",
+      "maintenance_help": "裝置維護",
+      "maintenance_help_desc": "裝置清潔和維護指南",
+      "faq_help": "常見問題",
+      "faq_help_desc": "電池壽命、飛行安全等",
+      "history_title": "連線歷史",
+      "connection_success": "裝置連線成功",
+      "measurement_complete": "肌酐檢測完成",
+      "device_disconnected": "裝置已斷線"
+    },
+    "logs": {
+      "title": "操作記錄",
+      "clear": "清除記錄",
+      "noLogs": "暫無記錄",
+      "levels": {
+        "info": "資訊",
+        "success": "成功",
+        "warning": "警告",
+        "error": "錯誤"
+      }
+    },
+    "data": {
+      "received": "收到肌酐資料",
+      "saved": "健康資料已更新",
+      "saveFailed": "儲存資料失敗"
+    }
+  },
+  "profile": {
+    "title": "使用者檔案",
+    "personalInfo": {
+      "selectBloodType": "請選擇血型",
+      "title": "個人資訊",
+      "basicInfo": "基本資訊",
+      "name": "姓名",
+      "age": "年齡",
+      "gender": "性別",
+      "height": "身高",
+      "weight": "體重",
+      "bmi": "BMI",
+      "bloodType": "血型",
+      "phone": "電話號碼",
+      "email": "電子郵件地址",
+      "address": "地址",
+      "allergies": "過敏史",
+      "conditions": "慢性疾病",
+      "medications": "正在服用的藥物",
+      "emergencyName": "緊急聯絡人姓名",
+      "emergencyRelation": "關係",
+      "emergencyPhone": "電話號碼",
+      "contactInfo": "聯絡資訊",
+      "preferredName": "希望被稱呼為",
+      "genderOptions": {
+        "female": "女性",
+        "male": "男性",
+        "nonBinary": "非二元/非雙性",
+        "transMale": "跨性別男性",
+        "transFemale": "跨性別女性",
+        "preferNotToSay": "不願透露",
+        "other": "其他"
+      },
+      "bloodTypeOptions": {
+        "A": "A型",
+        "B": "B型",
+        "AB": "AB型",
+        "O": "O型",
+        "other": "其他"
+      },
+      "preferredNamePlaceholder": "如：小明、TA、they/them等",
+      "genderOtherPlaceholder": "請填寫具體性別",
+      "medicalInfo": "醫療資訊",
+      "emergencyContact": "緊急聯絡人",
+      "selectBirthday": "選擇出生日期",
+      "bodyMetrics": "身體指標",
+      "healthIndicators": "健康指標",
+      "vitalSigns": "生命徵象",
+      "physicalData": "身體資料",
+      "bmiCategories": {
+        "underweight": "過輕",
+        "normal": "正常",
+        "overweight": "過重",
+        "obese": "肥胖"
+      }
+    },
+    "settings": {
+      "title": "應用程式設定",
+      "language": "語言",
+      "languageNote": "點擊後跳轉設定",
+      "languageOptions": {
+        "system": "跟隨系統",
+        "other": "其他語言：將跳轉設定"
+      },
+      "showCreatinineUnit": "顯示肌酐單位",
+      "enableBiometric": "啟用生物辨識",
+      "biometricAvailable": "生物辨識可用",
+      "biometricUnavailable": "生物辨識不可用",
+      "biometricPermissionDenied": "面容辨識權限被拒絕",
+      "biometricPermissionRequired": "需要面容辨識權限",
+      "biometricPermissionCheck": "請檢查面容辨識權限設定",
+      "biometricPermissionSettings": "請在設定中啟用面容辨識權限",
+      "biometricPermissionAlert": "面容辨識失敗，請檢查權限設定",
+      "biometricPermissionAlertTitle": "權限檢查",
+      "biometricPermissionAlertMessage": "面容辨識權限被拒絕或未啟用，請在系統設定中啟用面容辨識權限。\n\n是否跳轉到系統設定？",
+      "biometricPermissionAlertButton": "前往設定",
+      "biometricPermissionAlertCancel": "取消"
+    },
+    "dataManagement": {
+      "title": "資料管理",
+      "exportData": "匯出資料",
+      "exporting": "匯出中...",
+      "importData": "匯入資料",
+      "importing": "匯入中...",
+      "clearAllData": "清除所有資料",
+      "clearConfirmTitle": "確認清除",
+      "clearConfirmMessage": "此操作將刪除所有本地資料，包括使用者檔案、健康記錄和設定。此操作不可撤銷！",
+      "clearSuccess": "資料已清除",
+      "clearFailed": "清除失敗",
+      "importSuccess": "資料匯入成功",
+      "importFailed": "資料匯入失敗",
+      "exportSuccess": "資料匯出成功",
+      "exportFailed": "資料匯出失敗"
+    },
+    "appInfo": {
+      "title": "應用程式資訊",
+      "appVersion": "應用程式版本",
+      "dataVersion": "資料版本",
+      "lastUpdated": "最後更新"
+    }
+  },
+  "setup": {
+    "title": "初始設定",
+    "welcome": {
+      "title": "歡迎使用 Creasense",
+      "subtitle": "請選擇初始化方式"
+    },
+    "options": {
+      "freshStart": {
+        "title": "全新開始",
+        "description": "清空所有資料，從頭開始使用",
+        "disabledDescription": "已有資料，無法使用此選項"
+      },
+      "testData": {
+        "title": "測試資料",
+        "description": "使用範例資料進行測試"
+      },
+      "clearData": {
+        "title": "清空所有資料",
+        "description": "刪除所有本地資料，包括使用者檔案、健康記錄和設定"
+      }
+    },
+    "description": {
+      "title": "說明",
+      "freshStart": "全新開始：清空所有本地資料，適合首次使用",
+      "testData": "測試資料：載入範例資料，適合功能測試",
+      "saveNote": "選擇後資料將儲存到本地儲存"
+    }
+  },
+  "alerts": {
+    "confirm": "確認",
+    "cancel": "取消",
+    "ok": "確定",
+    "retry": "重試",
+    "ignore": "忽略",
+    "delete": "刪除",
+    "clear": "清除",
+    "reset": "重設",
+    "save": "儲存",
+    "close": "關閉",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步"
+  },
+  "toasts": {
+    "success": "成功",
+    "error": "錯誤",
+    "warning": "警告",
+    "info": "資訊"
+  },
+  "errors": {
+    "network": "網路錯誤",
+    "timeout": "請求逾時",
+    "server": "伺服器錯誤",
+    "client": "用戶端錯誤",
+    "unknown": "未知錯誤",
+    "validation": "驗證錯誤",
+    "permission": "權限錯誤",
+    "notFound": "未找到",
+    "unauthorized": "未授權",
+    "forbidden": "禁止存取",
+    "conflict": "衝突",
+    "tooManyRequests": "請求過於頻繁",
+    "serviceUnavailable": "服務不可用",
+    "badGateway": "閘道錯誤",
+    "gatewayTimeout": "閘道逾時"
+  },
+  "validation": {
+    "required": "此欄位為必填項",
+    "email": "請輸入有效的電子郵件地址",
+    "url": "請輸入有效的URL",
+    "minLength": "最少需要 {min} 個字元",
+    "maxLength": "最多允許 {max} 個字元",
+    "min": "最小值不能小於 {min}",
+    "max": "最大值不能大於 {max}",
+    "pattern": "格式不正確",
+    "numeric": "請輸入數字",
+    "integer": "請輸入整數",
+    "positive": "請輸入正數",
+    "negative": "請輸入負數",
+    "between": "值必須在 {min} 和 {max} 之間",
+    "unique": "此值已存在",
+    "confirmed": "兩次輸入不一致",
+    "different": "不能與 {field} 相同",
+    "same": "必須與 {field} 相同",
+    "before": "日期必須在 {date} 之前",
+    "after": "日期必須在 {date} 之後",
+    "beforeOrEqual": "日期必須在 {date} 之前或等於",
+    "afterOrEqual": "日期必須在 {date} 之後或等於"
+  },
+  "time": {
+    "now": "現在",
+    "ago": "前",
+    "in": "後",
+    "seconds": "秒",
+    "minutes": "分鐘",
+    "hours": "小時",
+    "days": "天",
+    "weeks": "週",
+    "months": "月",
+    "years": "年",
+    "today": "今天",
+    "yesterday": "昨天",
+    "tomorrow": "明天",
+    "thisWeek": "本週",
+    "lastWeek": "上週",
+    "nextWeek": "下週",
+    "thisMonth": "本月",
+    "lastMonth": "上月",
+    "nextMonth": "下月",
+    "thisYear": "今年",
+    "lastYear": "去年",
+    "nextYear": "明年"
+  },
+  "units": {
+    "creatinine": {
+      "mg/dL": "mg/dL",
+      "umol/L": "μmol/L",
+      "mmol/L": "mmol/L"
+    },
+    "length": {
+      "cm": "公分",
+      "m": "公尺",
+      "km": "公里",
+      "inch": "英吋",
+      "ft": "英呎",
+      "yd": "碼",
+      "mile": "英里"
+    },
+    "weight": {
+      "kg": "公斤",
+      "g": "公克",
+      "lb": "磅",
+      "oz": "盎司"
+    },
+    "temperature": {
+      "celsius": "攝氏度",
+      "fahrenheit": "華氏度",
+      "kelvin": "克爾文"
+    },
+    "pressure": {
+      "mmHg": "毫米汞柱",
+      "kPa": "千帕",
+      "atm": "標準大氣壓"
+    },
+    "volume": {
+      "ml": "毫升",
+      "l": "公升",
+      "gal": "加侖"
+    },
+    "area": {
+      "cm2": "平方公分",
+      "m2": "平方公尺",
+      "km2": "平方公里",
+      "inch2": "平方英吋",
+      "ft2": "平方英呎",
+      "yd2": "平方碼",
+      "acre": "英畝"
+    }
+  }
+} 

@@ -1,0 +1,496 @@
+{
+  "common": {
+    "viewInfo": "View Info",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "refresh": "Refresh",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "add": "Add",
+    "remove": "Remove",
+    "clear": "Clear",
+    "reset": "Reset",
+    "import": "Import",
+    "export": "Export",
+    "download": "Download",
+    "upload": "Upload",
+    "copy": "Copy",
+    "paste": "Paste",
+    "cut": "Cut",
+    "select": "Select",
+    "deselect": "Deselect",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "retry": "Retry",
+    "ignore": "Ignore",
+    "continue": "Continue",
+    "stop": "Stop",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "restart": "Restart",
+    "enable": "Enable",
+    "disable": "Disable",
+    "on": "On",
+    "off": "Off",
+    "active": "Active",
+    "inactive": "Inactive",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "online": "Online",
+    "offline": "Offline",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "ready": "Ready",
+    "busy": "Busy",
+    "idle": "Idle",
+    "processing": "Processing",
+    "completed": "Completed",
+    "failed": "Failed",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "timeout": "Timeout",
+    "unknown": "Unknown",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "custom": "Custom",
+    "default": "Default",
+    "auto": "Auto",
+    "manual": "Manual",
+    "automatic": "Automatic",
+    "age": "years old"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "devices": "Devices",
+    "profile": "Profile",
+    "setup": "Setup",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "devices": "Devices",
+      "profile": "Profile"
+    }
+  },
+  "dashboard": {
+    "title": "Creasense",
+    "greeting": {
+      "hello": "Hello",
+      "goodMorning": "Good Morning",
+      "goodAfternoon": "Good Afternoon",
+      "goodEvening": "Good Evening",
+      "goodNight": "Good Night"
+    },
+    "trends": {
+      "title": "Trends",
+      "viewAll": "View All",
+      "creatinineTrend": "Creatinine Trend",
+      "periods": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly"
+      },
+      "charts": {
+        "title": "Charts",
+        "lineChart": "Line Chart",
+        "barChart": "Bar Chart",
+        "pieChart": "Pie Chart",
+        "scatterPlot": "Scatter Plot"
+      },
+      "statistics": {
+        "title": "Statistics",
+        "summary": "Summary",
+        "distribution": "Distribution",
+        "correlation": "Correlation",
+        "prediction": "Prediction"
+      }
+    },
+    "healthStatus": {
+      "currentLevel": "Your Current Creatinine Level",
+      "normal": "Normal",
+      "warning": "Warning",
+      "danger": "Danger",
+      "currentValue": "Current Creatinine Value",
+      "diseaseProbability": "Disease Probability",
+      "personalizedAdvice": "Personalized Advice",
+      "noData": "No data available, please connect device to get latest readings",
+      "keepHealthy": "Your current creatinine level is normal, continue maintaining a healthy lifestyle."
+    },
+    "actions": {
+      "refreshData": "Refresh Data",
+      "refreshing": "Refreshing..."
+    },
+    "noData": {
+      "title": "No Data",
+      "description": "Please connect your creatinine detection device to get the latest health data",
+      "connectDevice": "Connect Device"
+    },
+    "charts": {
+      "creatinine_level": "Creatinine Level"
+    }
+  },
+  "devices": {
+    "title": "Device Management",
+    "creatinine_device": "Creatinine Detection Device",
+    "device_model": "MakeSense Detector",
+    "model": "Model: CR-2024",
+    "status": {
+      "idle": "Idle",
+      "scanning": "Scanning",
+      "connecting": "Connecting",
+      "connected": "Connected",
+      "reading": "Reading",
+      "disconnecting": "Disconnecting",
+      "error": "Error",
+      "disconnected": "Disconnected"
+    },
+    "actions": {
+      "scan": "Scan Device",
+      "scanning": "Scanning...",
+      "scan_bluetooth": "Scan Bluetooth Device",
+      "connect": "Connect",
+      "connecting": "Connecting...",
+      "disconnect": "Disconnect",
+      "disconnecting": "Disconnecting...",
+      "cancel": "Cancel Operation",
+      "retry": "Retry"
+    },
+    "settings": {
+      "title": "Device Settings",
+      "debugMode": "Debug Mode",
+      "enableDebug": "Enable Debug",
+      "disableDebug": "Disable Debug",
+      "debug_desc": "Enable Bluetooth debug logs",
+      "auto_connect": "Auto Connect",
+      "connection_notify": "Connection Notifications",
+      "show_creatinine_unit": "Show Creatinine Unit",
+      "show_creatinine_unit_desc": "Show µmol/L unit after all creatinine values",
+      "frequency_title": "Measurement Frequency",
+      "frequency_current": "Current Setting: ",
+      "frequency_notice": "Settings saved, will take effect after next measurement",
+      "frequency_values": {
+        "5_minutes": "5 minutes",
+        "15_minutes": "15 minutes",
+        "1_hour": "1 hour",
+        "3_hours": "3 hours",
+        "6_hours": "6 hours"
+      },
+      "frequency_picker_title": "Select Measurement Frequency",
+      "help_title": "Help & Support",
+      "connection_help": "How to Connect Device",
+      "connection_help_desc": "View device connection steps and troubleshooting",
+      "calibration_help": "Device Calibration",
+      "calibration_help_desc": "Learn how to calibrate detection device",
+      "maintenance_help": "Device Maintenance",
+      "maintenance_help_desc": "Device cleaning and maintenance guide",
+      "faq_help": "FAQ",
+      "faq_help_desc": "Battery life, flight safety, etc.",
+      "history_title": "Connection History",
+      "connection_success": "Device Connected Successfully",
+      "measurement_complete": "Creatinine Detection Complete",
+      "device_disconnected": "Device Disconnected",
+      "scan_start": "Starting Bluetooth device scan...",
+      "scan_failed": "Scan Failed",
+      "data_received": "Creatinine Data Received",
+      "data_updated": "Real-time Data Updated",
+      "disconnect_detected": "Bluetooth disconnect detected, clearing current creatinine data"
+    },
+    "logs": {
+      "title": "Operation Logs",
+      "clear": "Clear Logs",
+      "noLogs": "No Logs Available",
+      "levels": {
+        "info": "Info",
+        "success": "Success",
+        "warning": "Warning",
+        "error": "Error"
+      }
+    },
+    "data": {
+      "received": "Creatinine Data Received",
+      "saved": "Health Data Updated",
+      "saveFailed": "Failed to Save Data"
+    },
+    "help": {
+      "connection_steps": "Device Connection Steps:\n1. Ensure device has sufficient battery\n2. Enable Bluetooth\n3. Click connect device button\n4. Wait for pairing to complete",
+      "calibration_guide": "Device Calibration Instructions:\n1. Use standard solution\n2. Follow manual instructions\n3. Record calibration results\n4. Recalibrate periodically",
+      "maintenance_guide": "Device Maintenance Guide:\n1. Clean probe regularly\n2. Avoid humid environments\n3. Store reagents properly\n4. Check battery regularly",
+      "faq_content": "Frequently Asked Questions:\n1. Battery life: About 8 hours\n2. Can be carried on flights\n3. Supports IP67 waterproof rating\n4. Charging time: About 2 hours"
+    }
+  },
+  "profile": {
+    "title": "User Profile",
+    "personalInfo": {
+      "selectBloodType": "Select Blood Type",
+      "title": "Personal Information",
+      "basicInfo": "Basic Information",
+      "name": "Name",
+      "age": "Age",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "bmi": "BMI",
+      "bloodType": "Blood Type",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "address": "Address",
+      "allergies": "Allergies",
+      "conditions": "Chronic Conditions",
+      "medications": "Current Medications",
+      "emergencyName": "Emergency Contact Name",
+      "emergencyRelation": "Relationship",
+      "emergencyPhone": "Emergency Phone Number",
+      "contactInfo": "Contact Information",
+      "preferredName": "Preferred Name",
+      "genderOptions": {
+        "female": "Female",
+        "male": "Male",
+        "nonBinary": "Non-binary",
+        "transMale": "Transgender Male",
+        "transFemale": "Transgender Female",
+        "preferNotToSay": "Prefer not to say",
+        "other": "Other"
+      },
+      "bloodTypeOptions": {
+        "A": "Type A",
+        "B": "Type B",
+        "AB": "Type AB",
+        "O": "Type O",
+        "other": "Other"
+      },
+      "preferredNamePlaceholder": "e.g. Xiao Ming, TA, they/them, etc.",
+      "genderOtherPlaceholder": "Please specify your gender",
+      "medicalInfo": "Medical Information",
+      "emergencyContact": "Emergency Contact",
+      "selectBirthday": "Select Birth Date",
+      "bodyMetrics": "Body Metrics",
+      "healthIndicators": "Health Indicators",
+      "vitalSigns": "Vital Signs",
+      "physicalData": "Physical Data",
+      "bmiCategories": {
+        "underweight": "Underweight",
+        "normal": "Normal",
+        "overweight": "Overweight",
+        "obese": "Obese"
+      }
+    },
+    "settings": {
+      "title": "App Settings",
+      "language": "Language",
+      "languageNote": "Click to jump to settings",
+      "languageOptions": {
+        "system": "Follow System",
+        "other": "Other Languages: Will Jump to Settings"
+      },
+      "showCreatinineUnit": "Show Creatinine Unit",
+      "enableBiometric": "Enable Biometric",
+      "biometricAvailable": "Biometric Available",
+      "biometricUnavailable": "Biometric Unavailable",
+      "biometricPermissionDenied": "Face ID Permission Denied",
+      "biometricPermissionRequired": "Face ID Permission Required",
+      "biometricPermissionCheck": "Please check Face ID permission settings",
+      "biometricPermissionSettings": "Please enable Face ID permission in settings",
+      "biometricPermissionAlert": "Face ID failed, please check permission settings",
+      "biometricPermissionAlertTitle": "Permission Check",
+      "biometricPermissionAlertMessage": "Face ID permission is denied or not enabled. Please enable Face ID permission in system settings.\n\nWould you like to go to Settings?",
+      "biometricPermissionAlertButton": "Go to Settings",
+      "biometricPermissionAlertCancel": "Cancel"
+    },
+    "dataManagement": {
+      "title": "Data Management",
+      "exportData": "Export Data",
+      "exporting": "Exporting...",
+      "importData": "Import Data",
+      "importing": "Importing...",
+      "clearAllData": "Clear All Data",
+      "clearConfirmTitle": "Confirm Clear",
+      "clearConfirmMessage": "This action will delete all local data, including user profile, health records and settings. This action cannot be undone!",
+      "clearSuccess": "Data cleared",
+      "clearFailed": "Clear failed",
+      "importSuccess": "Data import successful",
+      "importFailed": "Data import failed",
+      "exportSuccess": "Data export successful",
+      "exportFailed": "Data export failed"
+    },
+    "appInfo": {
+      "title": "App Information",
+      "appVersion": "App Version",
+      "dataVersion": "Data Version",
+      "lastUpdated": "Last Updated"
+    }
+  },
+  "setup": {
+    "title": "Initial Setup",
+    "welcome": {
+      "title": "Welcome to Creasense",
+      "subtitle": "Please select initialization method"
+    },
+    "options": {
+      "freshStart": {
+        "title": "Fresh Start",
+        "description": "Clear all data and start from scratch",
+        "disabledDescription": "Data exists, this option is not available"
+      },
+      "testData": {
+        "title": "Test Data",
+        "description": "Use sample data for testing"
+      },
+      "clearData": {
+        "title": "Clear All Data",
+        "description": "Delete all local data, including user profile, health records and settings"
+      }
+    },
+    "description": {
+      "title": "Description",
+      "freshStart": "Fresh Start: Clear all local data, suitable for first use",
+      "testData": "Test Data: Load sample data, suitable for feature testing",
+      "saveNote": "Data will be saved to local storage after selection"
+    }
+  },
+  "alerts": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "retry": "Retry",
+    "ignore": "Ignore",
+    "delete": "Delete",
+    "clear": "Clear",
+    "reset": "Reset",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "toasts": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "errors": {
+    "network": "Network Error",
+    "timeout": "Request Timeout",
+    "server": "Server Error",
+    "client": "Client Error",
+    "unknown": "Unknown Error",
+    "validation": "Validation Error",
+    "permission": "Permission Error",
+    "notFound": "Not Found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "conflict": "Conflict",
+    "tooManyRequests": "Too Many Requests",
+    "serviceUnavailable": "Service Unavailable",
+    "badGateway": "Bad Gateway",
+    "gatewayTimeout": "Gateway Timeout"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "url": "Please enter a valid URL",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "min": "Minimum value cannot be less than {min}",
+    "max": "Maximum value cannot be greater than {max}",
+    "pattern": "Invalid format",
+    "numeric": "Please enter a number",
+    "integer": "Please enter an integer",
+    "positive": "Please enter a positive number",
+    "negative": "Please enter a negative number",
+    "between": "Value must be between {min} and {max}",
+    "unique": "This value already exists",
+    "confirmed": "Two inputs do not match",
+    "different": "Cannot be the same as {field}",
+    "same": "Must be the same as {field}",
+    "before": "Date must be before {date}",
+    "after": "Date must be after {date}",
+    "beforeOrEqual": "Date must be before or equal to {date}",
+    "afterOrEqual": "Date must be after or equal to {date}"
+  },
+  "time": {
+    "now": "Now",
+    "ago": "ago",
+    "in": "in",
+    "seconds": "seconds",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "lastWeek": "Last Week",
+    "nextWeek": "Next Week",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "nextMonth": "Next Month",
+    "thisYear": "This Year",
+    "lastYear": "Last Year",
+    "nextYear": "Next Year"
+  },
+  "units": {
+    "creatinine": {
+      "mg/dL": "mg/dL",
+      "umol/L": "μmol/L",
+      "mmol/L": "mmol/L"
+    },
+    "length": {
+      "cm": "cm",
+      "m": "m",
+      "km": "km",
+      "inch": "inch",
+      "ft": "ft",
+      "yd": "yd",
+      "mile": "mile"
+    },
+    "weight": {
+      "kg": "kg",
+      "g": "g",
+      "lb": "lb",
+      "oz": "oz"
+    },
+    "temperature": {
+      "celsius": "Celsius",
+      "fahrenheit": "Fahrenheit",
+      "kelvin": "Kelvin"
+    },
+    "pressure": {
+      "mmHg": "mmHg",
+      "kPa": "kPa",
+      "atm": "atm"
+    },
+    "volume": {
+      "ml": "ml",
+      "l": "l",
+      "gal": "gal"
+    },
+    "area": {
+      "cm2": "cm²",
+      "m2": "m²",
+      "km2": "km²",
+      "inch2": "in²",
+      "ft2": "ft²",
+      "yd2": "yd²",
+      "acre": "acre"
+    }
+  }
+} 

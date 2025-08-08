@@ -1,0 +1,37 @@
+{
+  "user": {
+    "name": "Lucent Historia",
+    "id": "23957232",
+    "avatar": "/assets/user.png",
+    "gender": "female",
+    "birthday": "1990-05-15",
+    "height": "165 cm",
+    "weight": "58 kg",
+    "bloodType": "A",
+    "settings": {
+      "showCreatinineUnit": true,
+      "enableBiometric": false
+    },
+    "contactInfo": {
+      "countryCode": "+86",
+      "phoneNumber": "133 2947 0192",
+      "email": "pinter.beatrix@email.com",
+      "address": "布达佩斯, 匈牙利\n1051 Budapest, \nVáci utca 123"
+    },
+    "medicalInfo": {
+      "allergies": "青霉素过敏\n花粉过敏（春季）",
+      "conditions": "轻度高血压\n糖尿病前期",
+      "medications": "降压药（氨氯地平 5mg，每日一次）\n维生素D3（每日1000IU）"
+    },
+    "emergencyContact": {
+      "name": "Emma Beaumont",
+      "relation": "家属",
+      "countryCode": "+86",
+      "phoneNumber": "138 0000 0001"
+    }
+  },
+  "version": "1.0.0",
+  "createdAt": "2025-07-01T00:00:00.000Z",
+  "updatedAt": "2025-07-15T10:30:00.000Z",
+  "lastModified": "2025-07-15T10:30:00.000Z"
+}

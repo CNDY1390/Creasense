@@ -1,0 +1,479 @@
+{
+  "common": {
+    "viewInfo": "Info Bekijken",
+    "loading": "Laden...",
+    "error": "Fout",
+    "success": "Succes",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "close": "Sluiten",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "refresh": "Vernieuwen",
+    "search": "Zoeken",
+    "filter": "Filter",
+    "sort": "Sorteren",
+    "view": "Bekijken",
+    "add": "Toevoegen",
+    "remove": "Verwijderen",
+    "clear": "Wissen",
+    "reset": "Resetten",
+    "import": "Importeren",
+    "export": "Exporteren",
+    "download": "Downloaden",
+    "upload": "Uploaden",
+    "copy": "Kopiëren",
+    "paste": "Plakken",
+    "cut": "Knippen",
+    "select": "Selecteren",
+    "deselect": "Deselecteren",
+    "selectAll": "Alles Selecteren",
+    "deselectAll": "Alles Deselecteren",
+    "yes": "Ja",
+    "no": "Nee",
+    "ok": "OK",
+    "retry": "Opnieuw Proberen",
+    "ignore": "Negeren",
+    "continue": "Doorgaan",
+    "stop": "Stoppen",
+    "start": "Starten",
+    "pause": "Pauzeren",
+    "resume": "Hervatten",
+    "restart": "Herstarten",
+    "enable": "Inschakelen",
+    "disable": "Uitschakelen",
+    "on": "Aan",
+    "off": "Uit",
+    "active": "Actief",
+    "inactive": "Inactief",
+    "connected": "Verbonden",
+    "disconnected": "Verbinding Verbroken",
+    "online": "Online",
+    "offline": "Offline",
+    "available": "Beschikbaar",
+    "unavailable": "Niet Beschikbaar",
+    "ready": "Gereed",
+    "busy": "Bezig",
+    "idle": "Inactief",
+    "processing": "Verwerken",
+    "completed": "Voltooid",
+    "failed": "Mislukt",
+    "pending": "In Afwachting",
+    "cancelled": "Geannuleerd",
+    "timeout": "Time-out",
+    "unknown": "Onbekend",
+    "none": "Geen",
+    "all": "Alles",
+    "other": "Anders",
+    "custom": "Aangepast",
+    "default": "Standaard",
+    "auto": "Auto",
+    "manual": "Handmatig",
+    "automatic": "Automatisch",
+    "age": "jaar oud"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "devices": "Apparaten",
+    "profile": "Profiel",
+    "setup": "Instellen",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "devices": "Apparaten",
+      "profile": "Profiel"
+    }
+  },
+  "dashboard": {
+    "title": "Creasense",
+    "greeting": {
+      "hello": "Hallo",
+      "goodMorning": "Goedemorgen",
+      "goodAfternoon": "Goedemiddag",
+      "goodEvening": "Goedenavond",
+      "goodNight": "Goedenacht"
+    },
+    "trends": {
+      "title": "Trends",
+      "viewAll": "Alles Bekijken",
+      "creatinineTrend": "Creatinine Trend",
+      "periods": {
+        "daily": "Dagelijks",
+        "weekly": "Wekelijks",
+        "monthly": "Maandelijks"
+      },
+      "charts": {
+        "title": "Grafieken",
+        "lineChart": "Lijndiagram",
+        "barChart": "Staafdiagram",
+        "pieChart": "Cirkeldiagram",
+        "scatterPlot": "Spreidingsdiagram"
+      },
+      "statistics": {
+        "title": "Statistieken",
+        "summary": "Samenvatting",
+        "distribution": "Verdeling",
+        "correlation": "Correlatie",
+        "prediction": "Voorspelling"
+      }
+    },
+    "healthStatus": {
+      "currentLevel": "Uw Huidige Creatinine Niveau",
+      "normal": "Normaal",
+      "warning": "Waarschuwing",
+      "danger": "Gevaar",
+      "currentValue": "Huidige Creatinine Waarde",
+      "diseaseProbability": "Ziektewaarschijnlijkheid",
+      "personalizedAdvice": "Gepersonaliseerd Advies",
+      "noData": "Geen gegevens beschikbaar, verbind apparaat voor nieuwste metingen",
+      "keepHealthy": "Uw huidige creatinine niveau is normaal, blijf een gezonde levensstijl behouden."
+    },
+    "actions": {
+      "refreshData": "Gegevens Vernieuwen",
+      "refreshing": "Vernieuwen..."
+    },
+    "noData": {
+      "title": "Geen Gegevens",
+      "description": "Verbind uw creatinine detectie apparaat voor de nieuwste gezondheidsgegevens",
+      "connectDevice": "Apparaat Verbinden"
+    }
+  },
+  "devices": {
+    "title": "Apparaatbeheer",
+    "creatinine_device": "Creatinine Detectie Apparaat",
+    "device_model": "MakeSense Detector",
+    "model": "Model: CR-2024",
+    "status": {
+      "idle": "Inactief",
+      "scanning": "Scannen",
+      "connecting": "Verbinden",
+      "connected": "Verbonden",
+      "reading": "Lezen",
+      "disconnecting": "Verbinding Verbreken",
+      "error": "Fout",
+      "disconnected": "Verbinding Verbroken"
+    },
+    "actions": {
+      "scan": "Apparaat Scannen",
+      "scanning": "Scannen...",
+      "connect": "Verbinden",
+      "connecting": "Verbinden...",
+      "disconnect": "Verbinding Verbreken",
+      "disconnecting": "Verbinding Verbreken...",
+      "cancel": "Operatie Annuleren",
+      "retry": "Opnieuw Proberen"
+    },
+    "settings": {
+      "title": "Apparaatinstellingen",
+      "debugMode": "Debug Modus",
+      "enableDebug": "Debug Inschakelen",
+      "disableDebug": "Debug Uitschakelen",
+      "auto_connect": "Automatisch Verbinden",
+      "connection_notify": "Verbindingsmeldingen",
+      "show_creatinine_unit": "Creatinine Eenheid Tonen",
+      "show_creatinine_unit_desc": "Toon µmol/L eenheid na alle creatinine waarden",
+      "frequency_title": "Meetfrequentie",
+      "frequency_current": "Huidige Instelling: ",
+      "frequency_notice": "Instellingen opgeslagen, worden actief na volgende meting",
+      "frequency_values": {
+        "5_minutes": "5 minuten",
+        "15_minutes": "15 minuten",
+        "1_hour": "1 uur",
+        "3_hours": "3 uur",
+        "6_hours": "6 uur"
+      },
+      "help_title": "Help & Ondersteuning",
+      "connection_help": "Apparaat Verbinden",
+      "connection_help_desc": "Bekijk apparaatverbindingsstappen en probleemoplossing",
+      "calibration_help": "Apparaat Kalibratie",
+      "calibration_help_desc": "Leer hoe detectieapparaat te kalibreren",
+      "maintenance_help": "Apparaat Onderhoud",
+      "maintenance_help_desc": "Apparaat reiniging en onderhoudsgids",
+      "faq_help": "FAQ",
+      "faq_help_desc": "Batterijduur, vliegveiligheid, etc.",
+      "history_title": "Verbindingsgeschiedenis",
+      "connection_success": "Apparaat Succesvol Verbonden",
+      "measurement_complete": "Creatinine Detectie Voltooid",
+      "device_disconnected": "Apparaat Verbinding Verbroken"
+    },
+    "logs": {
+      "title": "Operatielogs",
+      "clear": "Logs Wissen",
+      "noLogs": "Geen Logs Beschikbaar",
+      "levels": {
+        "info": "Info",
+        "success": "Succes",
+        "warning": "Waarschuwing",
+        "error": "Fout"
+      }
+    },
+    "data": {
+      "received": "Creatinine Gegevens Ontvangen",
+      "saved": "Gezondheidsgegevens Bijgewerkt",
+      "saveFailed": "Gegevens Opslaan Mislukt"
+    }
+  },
+  "profile": {
+    "title": "Gebruikersprofiel",
+    "personalInfo": {
+      "selectBloodType": "Bloedgroep Selecteren",
+      "title": "Persoonlijke Informatie",
+      "basicInfo": "Basisinformatie",
+      "name": "Naam",
+      "age": "Leeftijd",
+      "gender": "Geslacht",
+      "height": "Lengte",
+      "weight": "Gewicht",
+      "bmi": "BMI",
+      "bloodType": "Bloedgroep",
+      "phone": "Telefoonnummer",
+      "email": "E-mailadres",
+      "address": "Adres",
+      "allergies": "Allergieën",
+      "conditions": "Chronische Aandoeningen",
+      "medications": "Huidige Medicatie",
+      "emergencyName": "Noodcontact Naam",
+      "emergencyRelation": "Relatie",
+      "emergencyPhone": "Noodtelefoonnummer",
+      "contactInfo": "Contactinformatie",
+      "preferredName": "Voorkeursnaam",
+      "genderOptions": {
+        "female": "Vrouw",
+        "male": "Man",
+        "nonBinary": "Non-binair",
+        "transMale": "Transgender Man",
+        "transFemale": "Transgender Vrouw",
+        "preferNotToSay": "Zeg liever niet",
+        "other": "Anders"
+      },
+      "bloodTypeOptions": {
+        "A": "Type A",
+        "B": "Type B",
+        "AB": "Type AB",
+        "O": "Type O",
+        "other": "Anders"
+      },
+      "preferredNamePlaceholder": "bijv. Xiao Ming, TA, zij/hen, etc.",
+      "genderOtherPlaceholder": "Specificeer uw geslacht",
+      "medicalInfo": "Medische Informatie",
+      "emergencyContact": "Noodcontact",
+      "selectBirthday": "Geboortedatum Selecteren",
+      "bodyMetrics": "Lichaamsmetingen",
+      "healthIndicators": "Gezondheidsindicatoren",
+      "vitalSigns": "Vitale Tekenen",
+      "physicalData": "Fysieke Gegevens",
+      "bmiCategories": {
+        "underweight": "Ondergewicht",
+        "normal": "Normaal",
+        "overweight": "Overgewicht",
+        "obese": "Obese"
+      }
+    },
+    "settings": {
+      "title": "App Instellingen",
+      "language": "Taal",
+      "languageNote": "Klik om naar instellingen te gaan",
+      "languageOptions": {
+        "system": "Systeem Volgen",
+        "other": "Andere Talen: Gaat naar Instellingen"
+      },
+      "showCreatinineUnit": "Creatinine Eenheid Tonen",
+      "enableBiometric": "Biometrie Inschakelen",
+      "biometricAvailable": "Biometrie Beschikbaar",
+      "biometricUnavailable": "Biometrie Niet Beschikbaar",
+      "biometricPermissionDenied": "Face ID Toestemming Geweigerd",
+      "biometricPermissionRequired": "Face ID Toestemming Vereist",
+      "biometricPermissionCheck": "Controleer Face ID toestemmingsinstellingen",
+      "biometricPermissionSettings": "Schakel Face ID toestemming in in instellingen",
+      "biometricPermissionAlert": "Face ID mislukt, controleer toestemmingsinstellingen",
+      "biometricPermissionAlertTitle": "Toestemming Controle",
+      "biometricPermissionAlertMessage": "Face ID toestemming is geweigerd of niet ingeschakeld. Schakel Face ID toestemming in in systeeminstellingen.\n\nWilt u naar Instellingen gaan?",
+      "biometricPermissionAlertButton": "Naar Instellingen",
+      "biometricPermissionAlertCancel": "Annuleren"
+    },
+    "dataManagement": {
+      "title": "Gegevensbeheer",
+      "exportData": "Gegevens Exporteren",
+      "exporting": "Exporteren...",
+      "importData": "Gegevens Importeren",
+      "importing": "Importeren...",
+      "clearAllData": "Alle Gegevens Wissen",
+      "clearConfirmTitle": "Wissen Bevestigen",
+      "clearConfirmMessage": "Deze actie verwijdert alle lokale gegevens, inclusief gebruikersprofiel, gezondheidsgegevens en instellingen. Deze actie kan niet ongedaan worden gemaakt!",
+      "clearSuccess": "Gegevens gewist",
+      "clearFailed": "Wissen mislukt",
+      "importSuccess": "Gegevensimport succesvol",
+      "importFailed": "Gegevensimport mislukt",
+      "exportSuccess": "Gegevensexport succesvol",
+      "exportFailed": "Gegevensexport mislukt"
+    },
+    "appInfo": {
+      "title": "App Informatie",
+      "appVersion": "App Versie",
+      "dataVersion": "Gegevens Versie",
+      "lastUpdated": "Laatst Bijgewerkt"
+    }
+  },
+  "setup": {
+    "title": "Initiële Instelling",
+    "welcome": {
+      "title": "Welkom bij Creasense",
+      "subtitle": "Selecteer initialisatiemethode"
+    },
+    "options": {
+      "freshStart": {
+        "title": "Nieuwe Start",
+        "description": "Alle gegevens wissen en opnieuw beginnen",
+        "disabledDescription": "Gegevens bestaan, deze optie is niet beschikbaar"
+      },
+      "testData": {
+        "title": "Testgegevens",
+        "description": "Gebruik voorbeeldgegevens voor testen"
+      },
+      "clearData": {
+        "title": "Alle Gegevens Wissen",
+        "description": "Verwijder alle lokale gegevens, inclusief gebruikersprofiel, gezondheidsgegevens en instellingen"
+      }
+    },
+    "description": {
+      "title": "Beschrijving",
+      "freshStart": "Nieuwe Start: Wis alle lokale gegevens, geschikt voor eerste gebruik",
+      "testData": "Testgegevens: Laad voorbeeldgegevens, geschikt voor functietesten",
+      "saveNote": "Gegevens worden opgeslagen in lokale opslag na selectie"
+    }
+  },
+  "alerts": {
+    "confirm": "Bevestigen",
+    "cancel": "Annuleren",
+    "ok": "OK",
+    "retry": "Opnieuw Proberen",
+    "ignore": "Negeren",
+    "delete": "Verwijderen",
+    "clear": "Wissen",
+    "reset": "Resetten",
+    "save": "Opslaan",
+    "close": "Sluiten",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige"
+  },
+  "toasts": {
+    "success": "Succes",
+    "error": "Fout",
+    "warning": "Waarschuwing",
+    "info": "Info"
+  },
+  "errors": {
+    "network": "Netwerkfout",
+    "timeout": "Verzoek Time-out",
+    "server": "Serverfout",
+    "client": "Clientfout",
+    "unknown": "Onbekende Fout",
+    "validation": "Validatiefout",
+    "permission": "Toestemmingsfout",
+    "notFound": "Niet Gevonden",
+    "unauthorized": "Niet Geautoriseerd",
+    "forbidden": "Verboden",
+    "conflict": "Conflict",
+    "tooManyRequests": "Te Veel Verzoeken",
+    "serviceUnavailable": "Service Niet Beschikbaar",
+    "badGateway": "Slechte Gateway",
+    "gatewayTimeout": "Gateway Time-out"
+  },
+  "validation": {
+    "required": "Dit veld is verplicht",
+    "email": "Voer een geldig e-mailadres in",
+    "url": "Voer een geldige URL in",
+    "minLength": "Minimaal {min} tekens vereist",
+    "maxLength": "Maximaal {max} tekens toegestaan",
+    "min": "Minimumwaarde kan niet minder zijn dan {min}",
+    "max": "Maximumwaarde kan niet groter zijn dan {max}",
+    "pattern": "Ongeldig formaat",
+    "numeric": "Voer een nummer in",
+    "integer": "Voer een geheel getal in",
+    "positive": "Voer een positief getal in",
+    "negative": "Voer een negatief getal in",
+    "between": "Waarde moet tussen {min} en {max} liggen",
+    "unique": "Deze waarde bestaat al",
+    "confirmed": "Twee invoeren komen niet overeen",
+    "different": "Kan niet hetzelfde zijn als {field}",
+    "same": "Moet hetzelfde zijn als {field}",
+    "before": "Datum moet voor {date} liggen",
+    "after": "Datum moet na {date} liggen",
+    "beforeOrEqual": "Datum moet voor of gelijk aan {date} liggen",
+    "afterOrEqual": "Datum moet na of gelijk aan {date} liggen"
+  },
+  "time": {
+    "now": "Nu",
+    "ago": "geleden",
+    "in": "in",
+    "seconds": "seconden",
+    "minutes": "minuten",
+    "hours": "uur",
+    "days": "dagen",
+    "weeks": "weken",
+    "months": "maanden",
+    "years": "jaar",
+    "today": "Vandaag",
+    "yesterday": "Gisteren",
+    "tomorrow": "Morgen",
+    "thisWeek": "Deze Week",
+    "lastWeek": "Vorige Week",
+    "nextWeek": "Volgende Week",
+    "thisMonth": "Deze Maand",
+    "lastMonth": "Vorige Maand",
+    "nextMonth": "Volgende Maand",
+    "thisYear": "Dit Jaar",
+    "lastYear": "Vorig Jaar",
+    "nextYear": "Volgend Jaar"
+  },
+  "units": {
+    "creatinine": {
+      "mg/dL": "mg/dL",
+      "umol/L": "μmol/L",
+      "mmol/L": "mmol/L"
+    },
+    "length": {
+      "cm": "cm",
+      "m": "m",
+      "km": "km",
+      "inch": "inch",
+      "ft": "ft",
+      "yd": "yd",
+      "mile": "mile"
+    },
+    "weight": {
+      "kg": "kg",
+      "g": "g",
+      "lb": "lb",
+      "oz": "oz"
+    },
+    "temperature": {
+      "celsius": "Celsius",
+      "fahrenheit": "Fahrenheit",
+      "kelvin": "Kelvin"
+    },
+    "pressure": {
+      "mmHg": "mmHg",
+      "kPa": "kPa",
+      "atm": "atm"
+    },
+    "volume": {
+      "ml": "ml",
+      "l": "l",
+      "gal": "gal"
+    },
+    "area": {
+      "cm2": "cm²",
+      "m2": "m²",
+      "km2": "km²",
+      "inch2": "in²",
+      "ft2": "ft²",
+      "yd2": "yd²",
+      "acre": "acre"
+    }
+  }
+} 

@@ -1,0 +1,31 @@
+{
+  "user": {
+    "name": "@@@error",
+    "age": 0,
+    "gender": "",
+    "height": 0,
+    "weight": 0,
+    "avatar": "/assets/user.png",
+    "settings": {
+      "showCreatinineUnit": true
+    }
+  },
+  "healthStatus": {
+    "creatinine": {
+      "value": 0,
+      "unit": "mg/dL",
+      "level": "unknown",
+      "percentage": 0,
+      "timestamp": ""
+    },
+    "illnessProbability": 0,
+    "lastUpdated": ""
+  },
+  "chartData": {
+    "rawData": []
+  },
+  "version": "1.0.0",
+  "createdAt": "",
+  "updatedAt": "",
+  "lastModified": ""
+} 

@@ -1,0 +1,58 @@
+/* ===== 移动端文字选择最佳实践 ===== */
+/* 针对医疗应用的特殊需求，平衡用户体验和隐私保护 */
+
+/* ===== 1. 基础禁用选择样式 ===== */
+/* 所有需要禁用选择的元素都使用这个样式 */
+.page-title,
+.header, .item-headline,
+.item-title,
+.item-body,
+.item-footnote,
+nav *,
+.navigation *,
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+button,
+.button,
+.fa-solid,
+.fa-regular,
+.fa-brands,
+.icon,
+.decorative-text,
+.status-indicator,
+.status-text,
+.status-level,
+.card .item-title,
+.card .item-body,
+.metric-label,
+.greeting .hello,
+.user-name,
+.section-header .item-title,
+.view-all,
+.device-model,
+.device-status,
+.device-info .item-body,
+.setting-info .item-body,
+.no-select,
+.setting-info p,
+.device-details p,
+.risk-advice,
+.error-message,
+.help-text,
+.form-label,
+.accessible-text,
+.privacy-text,
+.metric-value,
+.current-value .value,
+.risk-percentage,
+.percentage  {
+  -webkit-user-select: none;       /* Safari/Chrome 禁用选择 */
+  -moz-user-select: none;          /* Firefox 禁用选择 */
+  -ms-user-select: none;           /* IE/Edge 禁用选择 */
+  user-select: none;               /* 标准属性禁用选择 */
+  -webkit-touch-callout: none;     /* 禁用长按菜单 */
+  -webkit-tap-highlight-color: transparent; /* 禁用点击高亮 */
+}
+
+

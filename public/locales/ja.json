@@ -1,0 +1,480 @@
+{
+  "common": {
+    "viewInfo": "情報を表示",
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "refresh": "更新",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "view": "表示",
+    "add": "追加",
+    "remove": "削除",
+    "clear": "クリア",
+    "reset": "リセット",
+    "import": "インポート",
+    "export": "エクスポート",
+    "download": "ダウンロード",
+    "upload": "アップロード",
+    "copy": "コピー",
+    "paste": "ペースト",
+    "cut": "切り取り",
+    "select": "選択",
+    "deselect": "選択解除",
+    "selectAll": "すべて選択",
+    "deselectAll": "すべて選択解除",
+    "yes": "はい",
+    "no": "いいえ",
+    "ok": "OK",
+    "retry": "再試行",
+    "ignore": "無視",
+    "continue": "続行",
+    "stop": "停止",
+    "start": "開始",
+    "pause": "一時停止",
+    "resume": "再開",
+    "restart": "再起動",
+    "enable": "有効",
+    "disable": "無効",
+    "on": "オン",
+    "off": "オフ",
+    "active": "アクティブ",
+    "inactive": "非アクティブ",
+    "connected": "接続済み",
+    "disconnected": "切断済み",
+    "online": "オンライン",
+    "offline": "オフライン",
+    "available": "利用可能",
+    "unavailable": "利用不可",
+    "ready": "準備完了",
+    "busy": "ビジー",
+    "idle": "アイドル",
+    "processing": "処理中",
+    "completed": "完了",
+    "failed": "失敗",
+    "pending": "保留中",
+    "cancelled": "キャンセル済み",
+    "timeout": "タイムアウト",
+    "unknown": "不明",
+    "none": "なし",
+    "all": "すべて",
+    "other": "その他",
+    "custom": "カスタム",
+    "default": "デフォルト",
+    "auto": "自動",
+    "manual": "手動",
+    "automatic": "自動",
+    "age": "歳"
+  },
+  "navigation": {
+    "dashboard": "ダッシュボード",
+    "devices": "デバイス",
+    "profile": "プロフィール",
+    "setup": "設定",
+    "tabs": {
+      "dashboard": "ダッシュボード",
+      "devices": "デバイス",
+      "profile": "プロフィール"
+    }
+  },
+  "dashboard": {
+    "title": "Creasense",
+    "greeting": {
+      "hello": "こんにちは",
+      "goodMorning": "おはようございます",
+      "goodAfternoon": "こんにちは",
+      "goodEvening": "こんばんは",
+      "goodNight": "おやすみなさい"
+    },
+    "trends": {
+      "title": "トレンド",
+      "viewAll": "すべて表示",
+      "creatinineTrend": "クレアチニン トレンド",
+      "periods": {
+        "daily": "日次",
+        "weekly": "週次",
+        "monthly": "月次"
+      },
+      "charts": {
+        "title": "チャート",
+        "lineChart": "折れ線グラフ",
+        "barChart": "棒グラフ",
+        "pieChart": "円グラフ",
+        "scatterPlot": "散布図"
+      },
+      "statistics": {
+        "title": "統計",
+        "summary": "サマリー",
+        "distribution": "分布",
+        "correlation": "相関",
+        "prediction": "予測"
+      }
+    },
+    "healthStatus": {
+      "currentLevel": "現在のクレアチニン値",
+      "normal": "正常",
+      "warning": "警告",
+      "danger": "危険",
+      "currentValue": "現在のクレアチニン値",
+      "diseaseProbability": "疾患確率",
+      "personalizedAdvice": "パーソナライズされたアドバイス",
+      "noData": "データがありません。デバイスを接続して最新の測定値を取得してください",
+      "keepHealthy": "現在のクレアチニン値は正常です。健康的な生活習慣を続けてください。"
+    },
+    "actions": {
+      "refreshData": "データを更新",
+      "refreshing": "更新中..."
+    },
+    "noData": {
+      "title": "データなし",
+      "description": "クレアチニン検出デバイスを接続して最新の健康データを取得してください",
+      "connectDevice": "デバイスを接続"
+    }
+  },
+  "devices": {
+    "title": "デバイス管理",
+    "creatinine_device": "クレアチニン検出デバイス",
+    "device_model": "MakeSense検出器",
+    "model": "モデル: CR-2024",
+    "status": {
+      "idle": "アイドル",
+      "scanning": "スキャン中",
+      "connecting": "接続中",
+      "connected": "接続済み",
+      "reading": "読み取り中",
+      "disconnecting": "切断中",
+      "error": "エラー",
+      "disconnected": "未接続"
+    },
+    "actions": {
+      "scan": "デバイスをスキャン",
+      "scanning": "スキャン中...",
+      "connect": "接続",
+      "connecting": "接続中...",
+      "disconnect": "切断",
+      "disconnecting": "切断中...",
+      "cancel": "操作をキャンセル",
+      "retry": "再試行"
+    },
+    "settings": {
+      "title": "デバイス設定",
+      "debugMode": "デバッグモード",
+      "enableDebug": "デバッグを有効",
+      "disableDebug": "デバッグを無効",
+      "auto_connect": "自動接続",
+      "connection_notify": "接続通知",
+      "show_creatinine_unit": "クレアチニン単位を表示",
+      "show_creatinine_unit_desc": "すべてのクレアチニン値の後にμmol/L単位を表示",
+      "frequency_title": "測定頻度設定",
+      "frequency_current": "現在の設定: ",
+      "frequency_notice": "設定が保存されました。次回測定後に有効になります",
+      "frequency_values": {
+        "5_minutes": "5分",
+        "15_minutes": "15分",
+        "1_hour": "1時間",
+        "3_hours": "3時間",
+        "6_hours": "6時間"
+      },
+      "frequency_picker_title": "測定頻度を選択",
+      "help_title": "ヘルプとサポート",
+      "connection_help": "デバイスの接続方法",
+      "connection_help_desc": "デバイス接続手順とトラブルシューティングを表示",
+      "calibration_help": "デバイスキャリブレーション",
+      "calibration_help_desc": "検出デバイスのキャリブレーション方法を学習",
+      "maintenance_help": "デバイスメンテナンス",
+      "maintenance_help_desc": "デバイスの清掃とメンテナンスガイド",
+      "faq_help": "FAQ",
+      "faq_help_desc": "バッテリー寿命、飛行安全など",
+      "history_title": "接続履歴",
+      "connection_success": "デバイス接続成功",
+      "measurement_complete": "クレアチニン検出完了",
+      "device_disconnected": "デバイス切断"
+    },
+    "logs": {
+      "title": "操作ログ",
+      "clear": "ログをクリア",
+      "noLogs": "ログがありません",
+      "levels": {
+        "info": "情報",
+        "success": "成功",
+        "warning": "警告",
+        "error": "エラー"
+      }
+    },
+    "data": {
+      "received": "クレアチニンデータを受信",
+      "saved": "健康データを更新",
+      "saveFailed": "データの保存に失敗"
+    }
+  },
+  "profile": {
+    "title": "ユーザープロフィール",
+    "personalInfo": {
+      "selectBloodType": "血液型を選択してください",
+      "title": "個人情報",
+      "basicInfo": "基本情報",
+      "name": "名前",
+      "age": "年齢",
+      "gender": "性別",
+      "height": "身長",
+      "weight": "体重",
+      "bmi": "BMI",
+      "bloodType": "血液型",
+      "phone": "電話番号",
+      "email": "メールアドレス",
+      "address": "住所",
+      "allergies": "アレルギー",
+      "conditions": "慢性疾患",
+      "medications": "現在服用中の薬",
+      "emergencyName": "緊急連絡先名",
+      "emergencyRelation": "関係",
+      "emergencyPhone": "緊急電話番号",
+      "contactInfo": "連絡先情報",
+      "preferredName": "希望する呼び名",
+      "genderOptions": {
+        "female": "女性",
+        "male": "男性",
+        "nonBinary": "ノンバイナリー",
+        "transMale": "トランスジェンダー男性",
+        "transFemale": "トランスジェンダー女性",
+        "preferNotToSay": "言及したくない",
+        "other": "その他"
+      },
+      "bloodTypeOptions": {
+        "A": "A型",
+        "B": "B型",
+        "AB": "AB型",
+        "O": "O型",
+        "other": "その他"
+      },
+      "preferredNamePlaceholder": "例：小明、TA、they/themなど",
+      "genderOtherPlaceholder": "具体的な性別を記入してください",
+      "medicalInfo": "医療情報",
+      "emergencyContact": "緊急連絡先",
+      "selectBirthday": "生年月日を選択",
+      "bodyMetrics": "身体指標",
+      "healthIndicators": "健康指標",
+      "vitalSigns": "バイタルサイン",
+      "physicalData": "身体データ",
+      "bmiCategories": {
+        "underweight": "低体重",
+        "normal": "正常",
+        "overweight": "過体重",
+        "obese": "肥満"
+      }
+    },
+    "settings": {
+      "title": "アプリ設定",
+      "language": "言語",
+      "languageNote": "設定にジャンプ",
+      "languageOptions": {
+        "system": "システムに従う",
+        "other": "その他の言語：設定にジャンプ"
+      },
+      "showCreatinineUnit": "クレアチニン単位を表示",
+      "enableBiometric": "生体認証を有効",
+      "biometricAvailable": "生体認証利用可能",
+      "biometricUnavailable": "生体認証利用不可",
+      "biometricPermissionDenied": "Face ID権限が拒否されました",
+      "biometricPermissionRequired": "Face ID権限が必要です",
+      "biometricPermissionCheck": "Face ID権限設定を確認してください",
+      "biometricPermissionSettings": "設定でFace ID権限を有効にしてください",
+      "biometricPermissionAlert": "Face IDが失敗しました。権限設定を確認してください",
+      "biometricPermissionAlertTitle": "権限チェック",
+      "biometricPermissionAlertMessage": "Face ID権限が拒否されているか有効になっていません。システム設定でFace ID権限を有効にしてください。\n\n設定に移動しますか？",
+      "biometricPermissionAlertButton": "設定に移動",
+      "biometricPermissionAlertCancel": "キャンセル"
+    },
+    "dataManagement": {
+      "title": "データ管理",
+      "exportData": "データをエクスポート",
+      "exporting": "エクスポート中...",
+      "importData": "データをインポート",
+      "importing": "インポート中...",
+      "clearAllData": "すべてのデータをクリア",
+      "clearConfirmTitle": "クリアの確認",
+      "clearConfirmMessage": "この操作により、ユーザープロフィール、健康記録、設定を含むすべてのローカルデータが削除されます。この操作は取り消せません！",
+      "clearSuccess": "データをクリアしました",
+      "clearFailed": "クリアに失敗しました",
+      "importSuccess": "データのインポートが成功しました",
+      "importFailed": "データのインポートに失敗しました",
+      "exportSuccess": "データのエクスポートが成功しました",
+      "exportFailed": "データのエクスポートに失敗しました"
+    },
+    "appInfo": {
+      "title": "アプリ情報",
+      "appVersion": "アプリバージョン",
+      "dataVersion": "データバージョン",
+      "lastUpdated": "最終更新"
+    }
+  },
+  "setup": {
+    "title": "初期設定",
+    "welcome": {
+      "title": "Creasenseへようこそ",
+      "subtitle": "初期化方法を選択してください"
+    },
+    "options": {
+      "freshStart": {
+        "title": "新規開始",
+        "description": "すべてのデータをクリアして最初から開始",
+        "disabledDescription": "データが存在するため、このオプションは使用できません"
+      },
+      "testData": {
+        "title": "テストデータ",
+        "description": "テスト用のサンプルデータを使用"
+      },
+      "clearData": {
+        "title": "すべてのデータをクリア",
+        "description": "ユーザープロフィール、健康記録、設定を含むすべてのローカルデータを削除"
+      }
+    },
+    "description": {
+      "title": "説明",
+      "freshStart": "新規開始：すべてのローカルデータをクリアし、初回使用に適しています",
+      "testData": "テストデータ：機能テストに適したサンプルデータを読み込みます",
+      "saveNote": "選択後、データはローカルストレージに保存されます"
+    }
+  },
+  "alerts": {
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "ok": "OK",
+    "retry": "再試行",
+    "ignore": "無視",
+    "delete": "削除",
+    "clear": "クリア",
+    "reset": "リセット",
+    "save": "保存",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ"
+  },
+  "toasts": {
+    "success": "成功",
+    "error": "エラー",
+    "warning": "警告",
+    "info": "情報"
+  },
+  "errors": {
+    "network": "ネットワークエラー",
+    "timeout": "リクエストタイムアウト",
+    "server": "サーバーエラー",
+    "client": "クライアントエラー",
+    "unknown": "不明なエラー",
+    "validation": "検証エラー",
+    "permission": "権限エラー",
+    "notFound": "見つかりません",
+    "unauthorized": "認証されていません",
+    "forbidden": "アクセス禁止",
+    "conflict": "競合",
+    "tooManyRequests": "リクエストが多すぎます",
+    "serviceUnavailable": "サービス利用不可",
+    "badGateway": "バドゲートウェイエラー",
+    "gatewayTimeout": "ゲートウェイタイムアウト"
+  },
+  "validation": {
+    "required": "このフィールドは必須です",
+    "email": "有効なメールアドレスを入力してください",
+    "url": "有効なURLを入力してください",
+    "minLength": "最低{min}文字必要です",
+    "maxLength": "最大{max}文字まで",
+    "min": "最小値は{min}以上である必要があります",
+    "max": "最大値は{max}以下である必要があります",
+    "pattern": "形式が正しくありません",
+    "numeric": "数字を入力してください",
+    "integer": "整数を入力してください",
+    "positive": "正の数を入力してください",
+    "negative": "負の数を入力してください",
+    "between": "値は{min}と{max}の間である必要があります",
+    "unique": "この値は既に存在します",
+    "confirmed": "2つの入力が一致しません",
+    "different": "{field}と同じにすることはできません",
+    "same": "{field}と同じである必要があります",
+    "before": "日付は{date}より前である必要があります",
+    "after": "日付は{date}より後である必要があります",
+    "beforeOrEqual": "日付は{date}以前である必要があります",
+    "afterOrEqual": "日付は{date}以降である必要があります"
+  },
+  "time": {
+    "now": "今",
+    "ago": "前",
+    "in": "後",
+    "seconds": "秒",
+    "minutes": "分",
+    "hours": "時間",
+    "days": "日",
+    "weeks": "週",
+    "months": "月",
+    "years": "年",
+    "today": "今日",
+    "yesterday": "昨日",
+    "tomorrow": "明日",
+    "thisWeek": "今週",
+    "lastWeek": "先週",
+    "nextWeek": "来週",
+    "thisMonth": "今月",
+    "lastMonth": "先月",
+    "nextMonth": "来月",
+    "thisYear": "今年",
+    "lastYear": "去年",
+    "nextYear": "来年"
+  },
+  "units": {
+    "creatinine": {
+      "mg/dL": "mg/dL",
+      "umol/L": "μmol/L",
+      "mmol/L": "mmol/L"
+    },
+    "length": {
+      "cm": "cm",
+      "m": "m",
+      "km": "km",
+      "inch": "インチ",
+      "ft": "フィート",
+      "yd": "ヤード",
+      "mile": "マイル"
+    },
+    "weight": {
+      "kg": "kg",
+      "g": "g",
+      "lb": "lb",
+      "oz": "oz"
+    },
+    "temperature": {
+      "celsius": "摂氏",
+      "fahrenheit": "華氏",
+      "kelvin": "ケルビン"
+    },
+    "pressure": {
+      "mmHg": "mmHg",
+      "kPa": "kPa",
+      "atm": "atm"
+    },
+    "volume": {
+      "ml": "ml",
+      "l": "l",
+      "gal": "gal"
+    },
+    "area": {
+      "cm2": "cm²",
+      "m2": "m²",
+      "km2": "km²",
+      "inch2": "in²",
+      "ft2": "ft²",
+      "yd2": "yd²",
+      "acre": "エーカー"
+    }
+  }
+} 

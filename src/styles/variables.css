@@ -1,0 +1,72 @@
+/* ===== Ionic 变量和主题配置 ===== */
+/* 更多信息请参考：http://ionicframework.com/docs/theming/ */
+
+/* ===== Ionic CSS 变量定义 ===== */
+:root {
+  /* ===== 字体系统 ===== */
+  /* 使用苹果系统字体栈，确保在不同设备上的一致性 */
+  --ion-font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+
+  /* ===== Creasense 项目自定义变量 ===== */
+  /* 主要颜色系统：蓝色系 */
+  --primary-color: #3b82f6;
+
+  /* ===== 背景色系统 ===== */
+  --bg-secondary: #f2f2f6;            /* iOS 原生背景色 */
+  --bg-card: #f8f9fa;              /* 卡片背景：与页面背景色保持一致 */
+
+  /* ===== 文字颜色系统 ===== */
+  --text-primary: #2c3e50;         /* 主要文字：深灰色 */
+  --text-secondary: #7f8c8d;       /* 次要文字：中灰色 */
+  --text-muted: #95a5a6;           /* 静默文字：浅灰色 */
+
+  /* ===== Apple 设计规范文字颜色 ===== */
+  --apple-text-primary: #1a1a1a;   /* Apple 主要文字：黑色（标签） */
+  --apple-text-secondary: #8e8e93; /* Apple 次要文字：苹果灰（用户内容） */
+/* color: #333;                     主要文字颜色 倒是是那个？  倒是是那个？倒是是那个？倒是是那个？*/
+  /* ===== 边框颜色 ===== */
+  --border-color: #e1e5e9;         /* 边框颜色：浅灰色 */
+
+  /* ===== 统一圆角系统 ===== */
+  --border-radius-small: 16px;     /* 小圆角：用于按钮等小元素 */
+  --border-radius-medium: 20px;    /* 中圆角：用于卡片等中等元素 */
+  --border-radius-large: 24px;     /* 大圆角：用于大容器 */
+  --border-radius-circle: 50%;     /* 圆形：用于头像、状态指示器等 */
+
+  /* ===== 向后兼容的圆角变量 ===== */
+  --border-radius: 20px;           /* 默认圆角 */
+  --border-radius-large: 24px;     /* 大圆角 */
+
+  /* ===== 阴影系统 ===== */
+  --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);    /* 轻微阴影：用于卡片 */
+  --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.15); /* 中等阴影：用于模态框等 */
+
+  /* ===== 间距系统 ===== */
+  --spacing-xs: 2px;               /* 超小间距 */
+  --spacing-sm: 4px;               /* 小间距 */
+  --spacing-md: 8px;               /* 中等间距 */
+  --spacing-lg: 12px;              /* 大间距 */
+  --spacing-xl: 16px;              /* 超大间距 */
+
+  /* ===== Ionic 颜色系统 ===== */
+  /* 主要颜色：绿色（成功色） */
+  --ion-color-primary: #34c759;    /* 主要绿色 */
+  --ion-color-primary-rgb: 56, 128, 255;           /* RGB格式 */
+  --ion-color-primary-contrast: #ffffff;            /* 对比色：白色 */
+  --ion-color-primary-contrast-rgb: 255, 255, 255; /* 对比色RGB */
+  --ion-color-primary-shade: #3171e0;              /* 深色变体 */
+  --ion-color-primary-tint: #4c8dff;               /* 浅色变体 */
+
+  /* 次要颜色：蓝色 */
+  --ion-color-secondary: #3dc2ff;  /* 次要蓝色 */
+  --ion-color-secondary-rgb: 61, 194, 255;         /* RGB格式 */
+  --ion-color-secondary-contrast: #ffffff;          /* 对比色：白色 */
+  --ion-color-secondary-contrast-rgb: 255, 255, 255; /* 对比色RGB */
+  --ion-color-secondary-shade: #36abe0;            /* 深色变体 */
+  --ion-color-secondary-tint: #50c8ff;             /* 浅色变体 */
+
+  /* ===== 字体系统 ===== */
+  --font-headline: -apple-system-headline;
+  --font-body: -apple-system-body;
+  --font-footnote: -apple-system-footnote;
+}

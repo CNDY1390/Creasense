@@ -1,0 +1,217 @@
+/* ===== 全局样式文件 ===== */
+
+/* ===== 安全区域变量定义 ===== */
+/* 定义CSS变量，用于适配不同设备的安全区域（如刘海屏、底部指示器等） */
+:root {
+  --safe-area-inset-top: env(safe-area-inset-top);
+  --safe-area-inset-bottom: calc(env(safe-area-inset-bottom) + 56px);
+
+  }
+
+/* ===== HTML根元素样式 ===== */
+html {
+  overflow-x: hidden;              /* 防止水平滚动 */
+  width: 100%;                     /* 占满视口宽度 */
+  height: 100%;                    /* 占满视口高度 */
+  -webkit-text-size-adjust: 100%;  /* 防止iOS设备自动调整文字大小 */
+  -ms-text-size-adjust: 100%;      /* 防止IE自动调整文字大小 */
+}
+
+/* ===== 页面主体样式 ===== */
+body {
+  font-family: -apple-system, sans-serif; /* 系统字体栈 */
+  /* line-height: 1.6;               行高 */
+  /* color: #333;                     主要文字颜色 */
+  background: var(--bg-secondary);            /* 统一页面背景色为浅灰色 */
+  width: 100%;                     /* 占满宽度 */
+  height: 100%;                    /* 占满高度 */
+  position: relative;              /* 为子元素定位提供参考 */
+}
+
+
+
+/* ===== 页面视图容器通用样式 ===== */
+/* 所有页面视图容器都应该继承这些样式 */
+.dashboard-view,
+.profile-view,
+.devices-view,
+.setup-view,
+.developer-view {
+  /* 盒模型统一 */
+  box-sizing: border-box;          /* 盒模型包含padding和border */
+  margin-left:0.75rem;
+  margin-right:0.75rem;
+  margin-top:  var(--safe-area-inset-top);
+  padding-bottom: var(--safe-area-inset-bottom);
+}
+/* 改view的margin外边距 才是解决状态栏和底部的最佳办法！ */
+
+
+
+
+
+/* ===== 页面头部样式 ===== */
+.header {
+  display: flex;                   /* 弹性布局 */
+  align-items: center;             /* 垂直居中 */
+  justify-content: space-between;  /* 两端对齐 */
+  padding: 16px 20px;              /* iOS 原生内边距 */
+  position: relative;  /* ！关键注释：否则元素会不跟随滚动而上去 */
+  /* border-bottom: 1px solid #c6c6c8; iOS 原生分割线 */
+}
+
+/* ===== 通用按钮样式 ===== */
+/* 所有按钮都应该继承这些基础样式 */
+button {
+  box-sizing: border-box;          /* 盒模型包含padding和border */
+}
+
+/* ===== 页面容器样式 ===== */
+.page-container {
+  padding: var(--spacing-sm);      /* 使用设计系统的间距变量 */
+  max-width: 100%;                 /* 最大宽度不超过容器 */
+  margin: 0 auto;                  /* 水平居中 */
+  background-color: var(--bg-secondary); /* 使用设计系统的背景色 */
+  box-sizing: border-box;          /* 盒模型包含padding和border */
+}
+
+/* ===== 卡片组件样式 ===== */
+.card {
+  background: var(var(--bg-card));      /* 卡片背景色 */
+  border-radius: var(--border-radius-medium); /* 圆角 */
+  box-shadow: var(--shadow-light); /* 轻微阴影 */
+  padding: var(--spacing-md);      /* 内边距 */
+  margin-bottom: var(--spacing-sm); /* 底部外边距 */
+  border: 1px solid var(--border-color); /* 边框 */
+  box-sizing: border-box;          /* 盒模型包含padding和border */
+}
+
+
+
+
+/* ===== 指标数值样式 ===== */
+.metric-value {
+  font: -apple-system-title1;      /* 苹果系统标题1字体 */
+  /* font-weight: 700;                粗体 */
+  color: var(--text-primary);      /* 主要文字颜色 */
+  line-height: 1;                  /* 行高为1 */
+}
+
+.metric-value .unit {
+  font: -apple-system-subheadline; /* 苹果系统副标题字体 */
+  color: var(--text-secondary);    /* 次要文字颜色 */
+  margin-left: var(--spacing-sm);  /* 左侧外边距 */
+  /* font-weight: 400;                正常粗细 */
+}
+
+.metric-label {
+  font: -apple-system-footnote;    /* 苹果系统脚注字体 */
+  color: #7f8c8d;                  /* 灰色文字 */
+  margin-top: 8px;                 /* 顶部外边距 */
+}
+
+/* ===== 按钮样式系统 ===== */
+/* 主要按钮：蓝色背景，白色文字 */
+.btn-primary {
+  --background: #4a90e2;           /* 背景色：蓝色 */
+  --color: white;                  /* 文字颜色：白色 */
+  --border-radius: var(--border-radius-small); /* 圆角 */
+  height: 48px;                    /* 固定高度 */
+  --box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3); /* 阴影效果 */
+  font: -apple-system-body;        /* 苹果系统正文字体 */
+  /* font-weight: 530;                字体粗细 */
+  --border: none;                  /* 无边框 */
+  --background-hover: #3a7bc8;     /* 悬停时背景色 */
+  --background-activated: #3a7bc8; /* 激活时背景色 */
+}
+
+/* 次要按钮：透明背景，灰色边框 */
+.btn-secondary {
+  --background: transparent;        /* 透明背景 */
+  --color: #6c757d;                /* 文字颜色：灰色 */
+  --border: 1px solid #6c757d;     /* 边框：灰色 */
+  --border-radius: var(--border-radius-small); /* 圆角 */
+  height: 48px;                    /* 固定高度 */
+  font: -apple-system-body;        /* 苹果系统正文字体 */
+  /* font-weight: 530;                字体粗细 */
+  --background-hover: rgba(108, 117, 125, 0.1); /* 悬停时背景色 */
+  --background-activated: rgba(108, 117, 125, 0.1); /* 激活时背景色 */
+}
+
+/* 危险按钮：红色背景，白色文字 */
+.btn-danger {
+  --background: #dc3545;           /* 背景色：红色 */
+  --color: white;                  /* 文字颜色：白色 */
+  --border-radius: var(--border-radius-small); /* 圆角 */
+  height: 48px;                    /* 固定高度 */
+  --box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3); /* 阴影效果 */
+  font: -apple-system-body;        /* 苹果系统正文字体 */
+  /* font-weight: 530;                字体粗细 */
+  --border: none;                  /* 无边框 */
+  --background-hover: #c82333;     /* 悬停时背景色 */
+  --background-activated: #c82333; /* 激活时背景色 */
+}
+
+/* ===== 状态指示器样式 ===== */
+.status-indicator {
+  width: 12px;                     /* 宽度 */
+  height: 12px;                    /* 高度 */
+  border-radius: var(--border-radius-circle); /* 圆形 */
+  display: inline-block;           /* 行内块级显示 */
+  margin-right: 8px;               /* 右侧外边距 */
+}
+
+/* 已连接状态：绿色 */
+.status-connected {
+  background-color: #2fdf75;       /* 绿色背景 */
+}
+
+/* 未连接状态：红色 */
+.status-disconnected {
+  background-color: #eb445a;       /* 红色背景 */
+}
+
+/* 扫描中状态：黄色，带脉冲动画 */
+.status-scanning {
+  background-color: #ffc409;       /* 黄色背景 */
+  animation: pulse 1.5s infinite;  /* 脉冲动画：1.5秒循环 */
+}
+
+/* ===== 脉冲动画定义 ===== */
+@keyframes pulse {
+  0% { opacity: 1; }               /* 开始：完全不透明 */
+  50% { opacity: 0.5; }           /* 中间：半透明 */
+  100% { opacity: 1; }            /* 结束：完全不透明 */
+}
+
+/* ===== 全局 Apple 系统字体类 ===== */
+
+.item-headline {
+  font: var(--font-headline);
+  padding-bottom: 1rem;
+}
+
+
+.item-title {
+  font: var(--font-headline);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* padding-bottom: 0.5rem; */
+}
+
+
+.item-body {
+  font: var(--font-body);
+}
+
+.item-footnote {
+  font: var(--font-footnote);
+}
+
+
+
+.page-title {
+  font: var(--font-headline);
+  color: var(--text-primary);
+  margin: 0;
+}
